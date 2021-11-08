@@ -12,6 +12,6 @@ services:
       KAFKA_ADVERTISED_HOST_NAME: vm1.engym.com
       KAFKA_CREATE_TOPICS: "test:1:1"
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      LOG4J_LOGGER_KAFKA_AUTHORIZER_LOGGER=DEBUG
+      LOG4J_LOGGER_KAFKA_AUTHORIZER_LOGGER: DEBUG
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
